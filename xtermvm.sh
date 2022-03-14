@@ -7,7 +7,6 @@ echo
 #  Requirements:                                #
 #  - QEMU Guest agent (on VM)                   #
 #  - Serial port 0 (on VM)                      #
-#  - Serial port 0 (on VM)                      #
 #  - Linux OS                                   #
 #################################################
 
