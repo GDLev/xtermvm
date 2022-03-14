@@ -16,7 +16,3 @@ Method 2
 wget upload.gdlev.ml/xtermvm.sh 
 sh xtermvm.sh
 ```
-Method 3
-``` sh
-curl https://raw.githubusercontent.com/GDLev/xtermvm/main/xtermvm.sh | bash
-```
