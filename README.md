@@ -1,15 +1,15 @@
 # xtermvm
 xTerm installator for Proxmox VMs
 
-Usage:
+# Usage
 Method 1
 ``` sh
 git clone https://github.com/GDLev/xtermvm
 cd xtermvm
 sh xtermvm.sh
-``` sh
-Method 2
 ```
+Method 2
+``` sh
 wget cdn.gdlev.ml/xtermvm.sh 
 sh xtermvm.sh
 ```
