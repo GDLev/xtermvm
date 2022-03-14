@@ -15,8 +15,7 @@ if test "$agree" = "y"
 then
      qm guest exec $id -- reboot
      echo "Done"
-     echo "installation complete"
-else
-     echo "installation complete"	
 fi
+
+echo "installation complete"
 echo "the introduced changes may not be visible until the proxmox panel is restarted"
