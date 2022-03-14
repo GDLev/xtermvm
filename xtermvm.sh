@@ -31,6 +31,5 @@ echo "installation complete\n"
 read -p "The proxmox panel needs to be restarted. Do it now? (y/n): " agree_a
 if test "$agree_a" = "y"
 then
-     qm guest exec $vm -- reboot
-     echo "Done"
+     reboot
 fi
