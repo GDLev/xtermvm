@@ -9,7 +9,8 @@ echo
 #  - Serial port 0 (on VM)                      #
 #  - Serial port 0 (on VM)                      #
 #  - Linux OS                                   #
-#################################################\n\n
+#################################################
+
 "
 read -p "please enter the ID of your virtual machine: " vm
 echo "setting up serial socket..."
