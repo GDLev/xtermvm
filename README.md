@@ -1,6 +1,10 @@
 # xtermvm
 xTerm installator for Proxmox VMs
 
+before installation, make sure the target VM has QEMU geust agent enabled
+Run the installation script in the proxmox terminal 
+# Usage
+Run the installation script in the proxmox terminal 
 # Usage
 Method 1
 ``` sh
