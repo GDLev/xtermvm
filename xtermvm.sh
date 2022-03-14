@@ -29,10 +29,9 @@ then
      echo "Done"
 fi
 echo "installation complete\n"
-read -p "the introduced changes may not be visible until the proxmox panel is restarted. Do it now? (y/n): " agree_a
+read -p "The proxmox panel needs to be restarted. Do it now? (y/n): " agree_a
 if test "$agree_a" = "y"
 then
      qm guest exec $vm -- reboot
      echo "Done"
 fi
-
