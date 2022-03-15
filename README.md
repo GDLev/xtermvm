@@ -1,6 +1,10 @@
 # xTermVM
 xTerm installator for Proxmox VMs
 
+
+![](install,gif)
+
+
 before installation, make sure the target VM has QEMU guest agent enabled 
 ### Usage
 Run the installation script in the proxmox terminal 
