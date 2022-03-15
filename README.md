@@ -2,7 +2,7 @@
 xTerm installator for Proxmox VMs
 
 
-![](install,gif)
+![](install.gif)
 
 
 before installation, make sure the target VM has QEMU guest agent enabled 
