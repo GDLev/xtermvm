@@ -4,7 +4,9 @@ echo
 #  xTerm terminal for Proxmox VMs               #
 #  By GDLev                                     #
 #                                               #
-#  Requirements:                                #
+#  Requirements:                                #"
+echo 
+"
 #  - QEMU Guest agent (on VM)                   #
 #  - Serial port 0 (on VM)                      #
 #  - Linux OS                                   #
