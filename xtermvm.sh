@@ -7,6 +7,7 @@ echo "#  - QEMU Guest agent (on VM)                   #"
 echo "#  - Serial port 0 (on VM)                      #"
 echo "#  - Linux OS                                   #"
 echo "#################################################"
+echo ""
 read -p "please enter the ID of your virtual machine: " vm
 echo "setting up serial socket..."
 qm set $vm -serial0 socket
