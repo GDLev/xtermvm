@@ -1,4 +1,4 @@
-echo 
+@echo 
 "#################################################
 #  xTerm terminal for Proxmox VMs               #
 #  https://github.com/GDLev/xtermvm             #
