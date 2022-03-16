@@ -1,14 +1,12 @@
-@echo 
-
-#################################################
-#  xTerm terminal for Proxmox VMs               #
-#  https://github.com/GDLev/xtermvm             #
-#                                               #
-#  Requirements:                                #
-#  - QEMU Guest agent (on VM)                   #
-#  - Serial port 0 (on VM)                      #
-#  - Linux OS                                   #
-#################################################
+echo "#################################################"
+echo "#  xTerm terminal for Proxmox VMs               #"
+echo "#  https://github.com/GDLev/xtermvm             #"
+echo "#                                               #"
+echo "#  Requirements:                                #"
+echo "#  - QEMU Guest agent (on VM)                   #"
+echo "#  - Serial port 0 (on VM)                      #"
+echo "#  - Linux OS                                   #"
+echo "#################################################"
 read -p "please enter the ID of your virtual machine: " vm
 echo "setting up serial socket..."
 qm set $vm -serial0 socket
