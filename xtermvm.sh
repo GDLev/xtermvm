@@ -2,7 +2,7 @@ echo
 "
 #################################################
 #  xTerm terminal for Proxmox VMs               #
-#  By GDLev                                     #
+#  https://github.com/GDLev/xtermvm             #
 #                                               #
 #  Requirements:                                #"
 echo 
