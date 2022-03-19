@@ -17,6 +17,6 @@ sh xtermvm.sh
 ```
 Method 2
 ``` sh
-wget upload.gdlev.ml/xtermvm.sh 
+wget cdn.gdlev.ml/xtermvm.sh 
 sh xtermvm.sh
 ```
